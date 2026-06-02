@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #11110f;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1;
+  background: #11110f;
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+}
